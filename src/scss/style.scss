@@ -1,0 +1,82 @@
+$bg-color:#333;
+$font-color:#fff;
+$primary-color: #008ed6;
+$dark-overlay:rgba(0, 0, 0, 0.356);
+$icon-size:30px;
+body {
+    background: $bg-color;
+    color: $font-color;
+}
+
+#home-section {
+    background: url('../images/cartwo.jpg') no-repeat;
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+    .dark-overlay {
+        background-color: $dark-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+    }
+    .home-inner {
+        padding-top: 150px;
+    }
+    .card-form {
+        opacity: 0.8;
+    }
+    .fa {
+        color: $primary-color;
+        background: #fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+
+#taxi-section,
+#load-section {
+    .fa {
+        color: #fff;
+        background: #0b1322;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+
+#event-section {
+    .fa {
+        color: $primary-color;
+        background: #fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+
+.dropdown-menu a {
+    font-weight: bold;
+    .fa {
+        color: $primary-color;
+        background: #fff;
+        padding: 11px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+
+#taxi-head-section,
+#event-section {
+    background-color: #0b1322;
+}
+
+#main-footer {
+    background-color: #0b1322;
+}
+
+.bg-custom {
+    background-color: #0b1322
+}
